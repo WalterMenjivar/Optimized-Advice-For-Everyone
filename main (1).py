@@ -184,7 +184,7 @@ nearby_hospital = input("would you like to be directed to an available hospital 
 
 import googlemaps
 
-gmaps = googlemaps.Client(key = 'AIzaSyCzpuqejeItNvaVR_VTvc6H4MZVT5yUVIU')
+gmaps = googlemaps.Client(key = 'PUT_YOUR_API_KEY_HERE')
 
 hospital = input(
     "Hello, It looks like you need medical attention. Is it an emergency? \n")
